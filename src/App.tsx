@@ -5,6 +5,7 @@ import { Home } from '@material-ui/icons';
 import List from './views/List';
 import Axis from './views/Axis';
 import BarChart from './views/BarChart';
+import BarChartSort from './views/BarChartSort';
 import LineChart from './views/LineChart';
 
 const Header = styled.header`
@@ -27,6 +28,7 @@ const App = () => {
         <Route exact path="/" component={List} />
         <Route path="/axis" component={Axis} />
         <Route path="/bar-chart" component={BarChart} />
+        <Route path="/bar-chart-sort" component={BarChartSort} />
         <Route path="/line-chart" component={LineChart} />
       </Switch>
     </>

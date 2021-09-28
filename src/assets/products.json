@@ -1,26 +1,37 @@
 [
   {
     "product": "apple",
-    "store": 10
+    "store": 10,
+    "color": "#f44336"
+  },
+  {
+    "product": "blueberry",
+    "store": 40,
+    "color": "#2196f3"
   },
   {
     "product": "banana",
-    "store": 30
+    "store": 30,
+    "color": "#ffeb3b"
   },
   {
     "product": "cherry",
-    "store": 20
+    "store": 20,
+    "color": "#e91e63"
   },
   {
     "product": "lemon",
-    "store": 60
+    "store": 60,
+    "color": "#4caf50"
   },
   {
     "product": "orange",
-    "store": 35
+    "store": 35,
+    "color": "#ff9800"
   },
   {
     "product": "grape",
-    "store": 55
+    "store": 55,
+    "color": "#673ab7"
   }
 ]

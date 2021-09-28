@@ -26,6 +26,9 @@ const List = () => {
           <Link to="/bar-chart">Bar Chart</Link>
         </li>
         <li>
+          <Link to="/bar-chart-sort">Bar Chart Sort</Link>
+        </li>
+        <li>
           <Link to="/line-chart">Link Chart</Link>
         </li>
       </ListContainer>

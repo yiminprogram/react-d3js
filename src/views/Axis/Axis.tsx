@@ -29,10 +29,6 @@ const Container = styled.section`
   padding: 2rem;
 `;
 
-const SVG = styled.svg`
-  background-color: #eaeaea;
-`;
-
 const Group = styled.g`
   font-size: 1rem;
 `;
@@ -63,13 +59,13 @@ const Axis = () => {
 
   return (
     <Container>
-      <SVG width={width} height={height}>
+      <svg width={width} height={height}>
         <Group
           ref={xAxisRef}
           transform={`translate(${margin.left},${margin.top + chartHeight})`}
         ></Group>
         <Group ref={yAxisRef} transform={`translate(${margin.left},${margin.top})`}></Group>
-      </SVG>
+      </svg>
     </Container>
   );
 };
