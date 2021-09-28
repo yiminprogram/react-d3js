@@ -1,0 +1,26 @@
+[
+  {
+    "product": "apple",
+    "store": 10
+  },
+  {
+    "product": "banana",
+    "store": 30
+  },
+  {
+    "product": "cherry",
+    "store": 20
+  },
+  {
+    "product": "lemon",
+    "store": 60
+  },
+  {
+    "product": "orange",
+    "store": 35
+  },
+  {
+    "product": "grape",
+    "store": 55
+  }
+]
