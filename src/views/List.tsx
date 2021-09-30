@@ -31,6 +31,12 @@ const List = () => {
         <li>
           <Link to="/line-chart">Link Chart</Link>
         </li>
+        <li>
+          <Link to="/line-chart-csv">Link Chart CSV</Link>
+        </li>
+        <li>
+          <Link to="/pie-chart">Pie Chart</Link>
+        </li>
       </ListContainer>
     </div>
   );

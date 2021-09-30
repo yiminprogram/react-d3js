@@ -15,22 +15,8 @@ const chartHeight = height - margin.top - margin.bottom;
 
 const data = [1, 2, 3, 4, 5, 6];
 
-// x scale
-const x = scaleLinear()
-  .domain(extent(data) as [number, number])
-  .range([0, chartWidth]);
-
-// y scale
-const y = scaleLinear()
-  .domain(extent(data) as [number, number])
-  .range([chartHeight, 0]);
-
 const Container = styled.section`
   padding: 2rem;
-`;
-
-const Group = styled.g`
-  font-size: 1rem;
 `;
 
 const Axis = () => {
@@ -38,6 +24,16 @@ const Axis = () => {
   const yAxisRef = useRef<SVGGElement | null>(null);
 
   useEffect(() => {
+    // x scale
+    const x = scaleLinear()
+      .domain(extent(data) as [number, number])
+      .range([0, chartWidth]);
+
+    // y scale
+    const y = scaleLinear()
+      .domain(extent(data) as [number, number])
+      .range([chartHeight, 0]);
+
     // create x axis
     if (xAxisRef.current) {
       const xAxisGroup = select(xAxisRef.current);
@@ -60,11 +56,8 @@ const Axis = () => {
   return (
     <Container>
       <svg width={width} height={height}>
-        <Group
-          ref={xAxisRef}
-          transform={`translate(${margin.left},${margin.top + chartHeight})`}
-        ></Group>
-        <Group ref={yAxisRef} transform={`translate(${margin.left},${margin.top})`}></Group>
+        <g ref={xAxisRef} transform={`translate(${margin.left},${margin.top + chartHeight})`}></g>
+        <g ref={yAxisRef} transform={`translate(${margin.left},${margin.top})`}></g>
       </svg>
     </Container>
   );

@@ -5,33 +5,33 @@
     "color": "#f44336"
   },
   {
-    "product": "blueberry",
-    "store": 40,
-    "color": "#2196f3"
+    "product": "orange",
+    "store": 20,
+    "color": "#ff9800"
   },
   {
     "product": "banana",
     "store": 30,
-    "color": "#ffeb3b"
-  },
-  {
-    "product": "cherry",
-    "store": 20,
-    "color": "#e91e63"
+    "color": "#fdd835"
   },
   {
     "product": "lemon",
-    "store": 60,
+    "store": 40,
     "color": "#4caf50"
   },
   {
-    "product": "orange",
-    "store": 35,
-    "color": "#ff9800"
+    "product": "blueberry",
+    "store": 50,
+    "color": "#2196f3"
+  },
+  {
+    "product": "cherry",
+    "store": 60,
+    "color": "#3f51b5"
   },
   {
     "product": "grape",
-    "store": 55,
+    "store": 70,
     "color": "#673ab7"
   }
 ]
