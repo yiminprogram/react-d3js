@@ -7,7 +7,7 @@ import Axis from './views/Axis';
 import BarChart from './views/BarChart';
 import BarChartSort from './views/BarChartSort';
 import LineChart from './views/LineChart';
-import LineChartCSV from './views/LineChartCSV';
+import CSVChart from './views/CSVChart';
 import PieChart from './views/PieChart';
 
 const Header = styled.header`
@@ -23,6 +23,7 @@ const RouteWrapper = styled.section`
 `;
 
 const Footer = styled.footer`
+  font-size: 0.8rem;
   padding: 1rem;
   text-align: center;
 
@@ -46,7 +47,7 @@ const App = () => {
           <Route path="/bar-chart" component={BarChart} />
           <Route path="/bar-chart-sort" component={BarChartSort} />
           <Route path="/line-chart" component={LineChart} />
-          <Route path="/line-chart-csv" component={LineChartCSV} />
+          <Route path="/line-csv-chart" component={CSVChart} />
           <Route path="/pie-chart" component={PieChart} />
         </Switch>
       </RouteWrapper>

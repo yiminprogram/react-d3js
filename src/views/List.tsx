@@ -32,7 +32,7 @@ const List = () => {
           <Link to="/line-chart">Link Chart</Link>
         </li>
         <li>
-          <Link to="/line-chart-csv">Link Chart CSV</Link>
+          <Link to="/csv-chart">CSV Chart</Link>
         </li>
         <li>
           <Link to="/pie-chart">Pie Chart</Link>
