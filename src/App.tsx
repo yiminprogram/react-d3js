@@ -47,7 +47,7 @@ const App = () => {
           <Route path="/bar-chart" component={BarChart} />
           <Route path="/bar-chart-sort" component={BarChartSort} />
           <Route path="/line-chart" component={LineChart} />
-          <Route path="/line-csv-chart" component={CSVChart} />
+          <Route path="/csv-chart" component={CSVChart} />
           <Route path="/pie-chart" component={PieChart} />
         </Switch>
       </RouteWrapper>

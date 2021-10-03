@@ -120,11 +120,7 @@ const LineChartCSV = () => {
       }
 
       // line
-      const line0 = line<TData>()
-        .x((d) => (x(formatTime(d.time)) as number) + x.bandwidth() / 2)
-        .y((d) => yTemp(d.temperature));
-
-      const line1 = line<TData>()
+      const d3_line = line<TData>()
         .x((d) => (x(formatTime(d.time)) as number) + x.bandwidth() / 2)
         .y((d) => yTemp(d.temperature));
 
@@ -133,13 +129,20 @@ const LineChartCSV = () => {
         lineGroup
           .append('path')
           .datum(data)
-          .attr('d', line0)
+          .attr('d', d3_line)
+          .attr('stroke-dasharray', () =>
+            lineGroup.select<SVGPathElement>('path').node()!.getTotalLength(),
+          )
+          .attr(
+            'stroke-dashoffset',
+            lineGroup.select<SVGPathElement>('path').node()!.getTotalLength(),
+          )
           .transition()
           .duration(1000)
           .attr('fill', 'none')
           .attr('stroke', '#ffa200')
-          .attr('stroke-width', 3)
-          .attr('d', line1);
+          .attr('stroke-width', 2)
+          .attr('stroke-dashoffset', 0);
       }
 
       // rect
@@ -150,11 +153,13 @@ const LineChartCSV = () => {
         .enter()
         .append('rect')
         .attr('x', (d) => (x(formatTime(d.time)) as number) + x.bandwidth() / 4)
-        .attr('y', (d) => yRain(d.rain))
+        .attr('y', chartHeight)
         .attr('width', x.bandwidth() / 2)
+        .attr('height', 0)
         .transition()
         .duration(1000)
         .attr('height', (d) => chartHeight - yRain(d.rain))
+        .attr('y', (d) => yRain(d.rain))
         .attr('fill', '#2196f3');
     }
   }, [data]);
