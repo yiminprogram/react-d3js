@@ -9,6 +9,7 @@ import BarChartSort from './views/BarChartSort';
 import LineChart from './views/LineChart';
 import CSVChart from './views/CSVChart';
 import PieChart from './views/PieChart';
+import CandleStickChart from './views/CandleStickChart';
 
 const Header = styled.header`
   height: 60px;
@@ -49,6 +50,7 @@ const App = () => {
           <Route path="/line-chart" component={LineChart} />
           <Route path="/csv-chart" component={CSVChart} />
           <Route path="/pie-chart" component={PieChart} />
+          <Route path="/candlestick-chart" component={CandleStickChart} />
         </Switch>
       </RouteWrapper>
       <Footer>

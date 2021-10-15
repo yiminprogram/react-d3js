@@ -37,6 +37,9 @@ const List = () => {
         <li>
           <Link to="/pie-chart">Pie Chart</Link>
         </li>
+        <li>
+          <Link to="/candlestick-chart">CandleStick Chart</Link>
+        </li>
       </ListContainer>
     </div>
   );
