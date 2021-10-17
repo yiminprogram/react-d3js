@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.js": "/react-d3js/static/js/main.3f71a11c.chunk.js",
-    "main.js.map": "/react-d3js/static/js/main.3f71a11c.chunk.js.map",
-    "runtime-main.js": "/react-d3js/static/js/runtime-main.1fb6a4a1.js",
-    "runtime-main.js.map": "/react-d3js/static/js/runtime-main.1fb6a4a1.js.map",
-    "static/js/2.fd7229ae.chunk.js": "/react-d3js/static/js/2.fd7229ae.chunk.js",
-    "static/js/2.fd7229ae.chunk.js.map": "/react-d3js/static/js/2.fd7229ae.chunk.js.map",
+    "main.js": "/react-d3js/static/js/main.9ecade68.chunk.js",
+    "main.js.map": "/react-d3js/static/js/main.9ecade68.chunk.js.map",
+    "runtime-main.js": "/react-d3js/static/js/runtime-main.15fec5f6.js",
+    "runtime-main.js.map": "/react-d3js/static/js/runtime-main.15fec5f6.js.map",
+    "static/js/2.d41c594c.chunk.js": "/react-d3js/static/js/2.d41c594c.chunk.js",
+    "static/js/2.d41c594c.chunk.js.map": "/react-d3js/static/js/2.d41c594c.chunk.js.map",
     "index.html": "/react-d3js/index.html",
-    "static/js/2.fd7229ae.chunk.js.LICENSE.txt": "/react-d3js/static/js/2.fd7229ae.chunk.js.LICENSE.txt",
+    "static/js/2.d41c594c.chunk.js.LICENSE.txt": "/react-d3js/static/js/2.d41c594c.chunk.js.LICENSE.txt",
+    "static/media/axis.49f53675.jpg": "/react-d3js/static/media/axis.49f53675.jpg",
+    "static/media/bar-chart-sort.fe5e97f3.jpg": "/react-d3js/static/media/bar-chart-sort.fe5e97f3.jpg",
+    "static/media/bar-chart.cf18e6e8.jpg": "/react-d3js/static/media/bar-chart.cf18e6e8.jpg",
+    "static/media/candlestick-chart.a69fe347.jpg": "/react-d3js/static/media/candlestick-chart.a69fe347.jpg",
+    "static/media/csv-chart.8c6d0089.jpg": "/react-d3js/static/media/csv-chart.8c6d0089.jpg",
     "static/media/finance-week.csv": "/react-d3js/static/media/finance-week.574c7f5c.csv",
+    "static/media/line-chart.bb605b5e.jpg": "/react-d3js/static/media/line-chart.bb605b5e.jpg",
+    "static/media/pie-chart.2f66251a.jpg": "/react-d3js/static/media/pie-chart.2f66251a.jpg",
     "static/media/weather.csv": "/react-d3js/static/media/weather.2fe5c87c.csv"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fb6a4a1.js",
-    "static/js/2.fd7229ae.chunk.js",
-    "static/js/main.3f71a11c.chunk.js"
+    "static/js/runtime-main.15fec5f6.js",
+    "static/js/2.d41c594c.chunk.js",
+    "static/js/main.9ecade68.chunk.js"
   ]
 }
